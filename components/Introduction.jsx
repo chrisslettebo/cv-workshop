@@ -13,7 +13,7 @@ export function Introduction() {
     <div className="flex gap-5 flex-col sm:flex-row">
       <Image
         alt="Bilde av meg"
-        src="/profilBilde.jpg"
+        src="/meg.jpg"
         className="rounded-full"
         width={278}
         height={278}
@@ -21,12 +21,12 @@ export function Introduction() {
       <div className="flex flex-col gap-5 my-auto text-center sm:text-left">
         <h1 className="text-secondary-700 text-4xl sm:text-6xl">Velkommen,</h1>
         <p>
-          Jeg heter Kari Nordmann, du kan sende meg en epost på:{" "}
+          Jeg heter Christoffer A. Slettebø, du kan sende meg en epost på:{" "}
           <a
             className="font-bold hover:underline"
-            href="mailto:kari.nordmann@epost.no"
+            href="mailto:chrisslettebo@gmail.com"
           >
-            kari.nordmann@epost.no
+            chrisslettebo@gmail.com
           </a>
         </p>
       </div>

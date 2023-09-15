@@ -11,10 +11,12 @@ import Image from "next/image";
 // Her definerer hvilke prosjekter vi vil vise nedenfor.
 const latestProjects = [
   {
-    title: "Overskrift",
+    title: "K-means clustering",
     description:
-      "Kort forklaring av hva prosjektet omhandlet, eventuelt hvem det var for.",
-    image: "/design-sprint.jpg",
+      "Et optimaliserings prosjekt på skulen hvor målet var å få maskinene til å bruke minst mulig" +
+      " tid til å reise for å reparere/vaske solcelle panler i rommet. Da måtte vi finne de beste plassene " + 
+      "for robotene til å stå klar for oppdraget",
+    image: "/k-means.png",
     href: "/prosjekter/tilfeldig-prosjekt",
   },
 ];
@@ -34,7 +36,7 @@ export function LatestProjects() {
 
       <Link
         className="text-secondary-700 font-bold hover:underline"
-        href="/prosjekter"
+        href="/all-projects"
       >
         Se alle mine prosjekter
       </Link>
